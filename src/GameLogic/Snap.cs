@@ -144,12 +144,6 @@ namespace CardGames.GameLogic
 			    IsStarted && // and the game is started
 			    _topCards [0] != null && _topCards [0].Rank == _topCards [1].Rank) // and its a match
 			{
-<<<<<<< HEAD
-				_score[player]++;
-                _gameTimer.Stop();
-                //TODO: consider playing a sound here...
-            }
-=======
 				_score [player]++;
 				//TODO: consider playing a sound here...
 			}
@@ -158,7 +152,6 @@ namespace CardGames.GameLogic
 				_score [player]--;
 			}
 
->>>>>>> add-player-hit
 
 			// stop the game...
 			_started = false;
